@@ -28,7 +28,7 @@ The GIFs are promotional captures of God's Eye View. They include Google Photore
 
 ## Public README PNGs
 
-Bilawal Sidhu published the following PNGs in the existing public `bilawalsidhu/gods-eye-view` repository and authorized their continued inclusion and redistribution with this repository and its project documentation:
+Bilawal Sidhu published the following PNGs in the existing public `bilawalsidhu/gods-eye-view` repository and authorized their continued inclusion and redistribution with this repository (Gaia Earth View, forked from gods-eye-view) and its project documentation:
 
 - `youtube-popular-videos.png`
 - `open-source-survey.png`

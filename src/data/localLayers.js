@@ -1,6 +1,15 @@
 import { createLocalGeoJsonLayer } from './localGeojson.js';
 import { createFirmsHeatmapLayer } from './firmsHeatmap.js';
 import submarineCablesLayer from './telegeographySubmarineCables.js';
+import surfaceWaterLayer from './surfaceWater.js';
+import ndviLayer from './ndviVegetation.js';
+import soilMoistureLayer from './soilMoisture.js';
+import deforestationLayer from './deforestationAlerts.js';
+import watershedDelineationLayer from './watershedDelineation.js';
+import gppLayer from './grossPrimaryProductivity.js';
+import neeLayer from './netEcosystemExchange.js';
+import ecoregionBoundariesLayer from './ecoregionBoundaries.js';
+import googleMyMapsLayer from './googleMyMaps.js';
 
 // Use Vite's ?url import to properly resolve these assets in dev and build
 import datacentersUrl from './local_data/datacenters/datacenters.geojsonl?url';
@@ -49,4 +58,13 @@ export default [
   dams,
   submarineCablesLayer,
   fires,
+  surfaceWaterLayer,
+  ndviLayer,
+  soilMoistureLayer,
+  deforestationLayer,
+  watershedDelineationLayer,
+  gppLayer,
+  neeLayer,
+  ecoregionBoundariesLayer,
+  googleMyMapsLayer,
 ];

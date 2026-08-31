@@ -200,8 +200,15 @@ async function init() {
 
     // If no share link state, do default fly-to Austin
     if (!styleManager.hasShareState) {
-      loaderStatus.textContent = 'Flying to Austin, TX...';
-      flyToAustin(viewer);
+      loaderStatus.textContent = 'Initializing globe view...';
+      viewer.camera.setView({
+        destination: Cesium.Cartesian3.fromDegrees(20, 10, 20000000),
+        orientation: {
+          heading: 0,
+          pitch: Cesium.Math.toRadians(-90),
+          roll: 0,
+        },
+      });
     } else {
       loaderStatus.textContent = 'Restoring shared view...';
     }

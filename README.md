@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🌐 God's Eye View
+# 🌐 Gaia Earth View
 
-### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
+### A bioregional spatial intelligence console — live Earth systems data on a photorealistic 3D globe, in your browser.
 
 Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras, with clearly labeled modeled views where a live feed is unavailable. Hands-free voice control powered by a realtime AI agent.
 
@@ -30,11 +30,11 @@ Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic,
 
 ## 🌍 Why This Exists
 
-**You asked, so it's happening.** God's Eye View is open source. Track the world live. Talk to it. Break it. Extend it.
+**You asked, so it's happening.** Gaia Earth View is open source. Monitor the living planet. Talk to it. Break it. Extend it.
 
-Most open-source intelligence is a pile of browser tabs. The signals are abundant, but the *interface* is the bottleneck. God's Eye View turns those signals into a **place**: the world is already broadcasting — flight transponders, ship beacons, orbital elements, seismographs, public cameras — and this makes it visible on a photorealistic 3D Earth in real time. No classified clearance required; it's public signal all the way down, and the interface runs in your browser, under your control.
+Most open-source intelligence is a pile of browser tabs. The signals are abundant, but the *interface* is the bottleneck. Gaia Earth View turns those signals into a **place**: the world is already broadcasting — flight transponders, ship beacons, orbital elements, seismographs, public cameras — and this makes it visible on a photorealistic 3D Earth in real time. No special access required; it's public signal all the way down, and the interface runs in your browser, under your control.
 
-> Half the magic is that it looks like a forbidden cockpit. The other half is that every line of code is inspectable.
+> Half the magic is that it renders a living planet in real time. The other half is that every line of code is inspectable.
 
 The live layers are grounded in public feeds: the airliner crossing your screen is reporting telemetry, the camera is installed at a published location, and the ISS position is propagated from current orbital elements. The client deliberately renders flights one polling interval behind real time so it can interpolate smoothly. Some experiences are modeled rather than live: keyless traffic is labeled as a simulation, camera poses are estimated until calibrated, and launch ascent playback is marked `RECONSTRUCTED ESTIMATE`. Each layer keeps its source and freshness state visible, including partial, delayed, simulated, and unavailable states.
 
@@ -83,7 +83,7 @@ npm run dev -- --host localhost --port 4173
 > **Not a coder? Have an AI do this whole page for you.** A one-click installer is in the works — until then, install a coding agent ([Claude Code](https://claude.com/claude-code), [Codex](https://openai.com/codex/), [Cursor](https://cursor.com), or [Antigravity](https://antigravity.google)) and paste this:
 >
 > ```text
-> Clone https://github.com/bilawalsidhu/gods-eye-view and set it up on my machine.
+> Clone https://github.com/bioconomy-earth/gaia-earth-view and set it up on my machine.
 > Install everything it needs, walk me through getting the required Google Maps API
 > key step by step (plus any optional free keys I want), put the keys in .env, and
 > help me set a billing alert and a usage quota on the Google key so I can't
@@ -337,11 +337,11 @@ By default nobody else can reach your server — it binds to localhost. To share
 
 ## 📋 Responsible & Open
 
-God's Eye View runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. It has the visual grammar of a classified ops room, built entirely from open signals and inspectable code.
+Gaia Earth View runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. Built entirely from open signals and inspectable code, in service of ecological transparency.
 
 **The line.** This project models **events, assets, infrastructure, and systems** — aircraft, vessels, satellites, fires, cameras, cities. It does not build features for named-person search, face recognition, or tracking individuals, and pull requests that cross that line won't be merged. People are not a query type here.
 
-**Come build it.** This is the canonical live 3D client from the project that kicked off the recent wave of spatial-intelligence tools — and it's a canvas: the layers here are the signals one person could find and fuse. Add a city pack, a data source, a style, a voice tool. It's the window through which you see the world; bring that window to others.
+**Come build it.** This started as a fork of the project that kicked off the recent wave of spatial-intelligence tools — and it's a canvas: the layers here are the signals one person could find and fuse. Add an ecological layer, a data source, a style, a voice tool. It's the window through which BioHubs see their bioregion; bring that window to yours.
 
 **Status:** An evolving open-source client for exploration and learning — a fast, hackable foundation, not a hardened production service. Released under the **[MIT License](LICENSE)**. Bundled and live datasets carry their own terms — see **[DATA_SOURCES.md](DATA_SOURCES.md)**. Security model: **[SECURITY.md](SECURITY.md)**. Want to contribute? **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
